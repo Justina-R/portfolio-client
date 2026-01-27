@@ -1,0 +1,81 @@
+.dev-tools {
+  width: 100%;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 50;
+  scroll-margin-top: 110px;
+}
+.dev-header {
+  width: 79%;
+  margin: 2rem auto 3rem 0;
+  padding: 1.8rem 0.3rem;
+  background: linear-gradient(85deg, var(--bg), var(--primary-color));
+  text-align: right;
+  border-radius: 0 50px 50px 0;
+}
+
+.dev-header h2 {
+  font-size: clamp(2rem, 2.6vw, 3rem);
+  color: var(--logo-color);
+  padding-right: 1.8rem;
+}
+
+.dev-description-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dev-description {
+  background-color: var(--card-color);
+  max-width: 520px;
+  padding: 30px;
+  border-radius: 12px;
+  margin-left: 18rem;
+}
+
+.dev-description p {
+  color: var(--subtext-color);
+  line-height: 1.6;
+  font-size: 1.3rem;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.dev-logos {
+  margin-top: 60px;
+  padding: 1.9rem 0;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--contrast-color);
+  color: transparent;
+}
+.dev-logos .logoloop__node svg {
+  color: var(--logo-color);
+}
+
+.dev-logos .logo-csharp {
+  width: 60px;
+  height: 60px;
+
+  background-color: var(--logo-color);
+
+  mask: url("/images/c_sharp_icon_213045.webp") center / contain no-repeat;
+  -webkit-mask: url("/images/c_sharp_icon_213045.webp") center / contain
+    no-repeat;
+}
+
+@media (hover: none), (max-width: 768px) {
+  .dev-logos {
+    padding: 1.2rem 0;
+  }
+}
+
+@media (max-width: 690px) {
+  .dev-description {
+    margin-left: 0;
+    margin: 0 1rem;
+  }
+  .dev-logos .logoloop__node svg {
+    font-size: 56px;
+  }
+}

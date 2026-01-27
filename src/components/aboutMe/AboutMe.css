@@ -1,0 +1,166 @@
+.about {
+  width: 100%;
+  padding-bottom: 4rem;
+  background-color: var(--bg);
+  padding-top: 2rem;
+  z-index: 50;
+  position: relative;
+  scroll-margin-top: 110px;
+}
+
+.about-header {
+  width: 79%;
+  margin: 0 auto 3rem 0;
+  padding: 1.8rem 0.3rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: linear-gradient(85deg, var(--bg), var(--primary-color));
+  text-align: right;
+}
+
+.about-header h2 {
+  margin: 0;
+  font-size: clamp(2rem, 2.6vw, 3rem);
+  color: var(--logo-color);
+  padding-right: 1.8rem;
+}
+
+.about-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+}
+
+.about-card {
+  background: var(--card-color);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.about-card h3 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  color: var(--text-color);
+}
+
+.about-text p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.education-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.education-item img {
+  padding-top: 0.3rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.education-title {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 0;
+  font-family: "Sulphur Point", sans-serif;
+  color: var(--text-color);
+}
+
+.education-subtitle {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--subtext-color);
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 22px auto 1fr;
+  align-items: center;
+  column-gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.skill img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.skill span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Sulphur Point", sans-serif;
+  color: var(--text-color);
+}
+
+.bar {
+  height: 8px;
+  width: 13rem;
+  background: var(--bg);
+  border-radius: 10px;
+  overflow: hidden;
+  justify-self: end;
+}
+
+.fill {
+  height: 100%;
+  background: var(--contrast-color);
+  border-radius: 10px;
+}
+
+.fill-60 {
+  width: 60%;
+}
+.fill-50 {
+  width: 50%;
+}
+.fill-80 {
+  width: 80%;
+}
+.fill-95 {
+  width: 95%;
+}
+
+@media (max-width: 1024px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-header {
+    width: calc(100% - 2rem);
+  }
+
+  .about-header h2 {
+    padding-right: 1.4rem;
+  }
+
+  .about-text p {
+    font-size: 1.2rem;
+  }
+  .about-card {
+    padding: 1.3rem;
+  }
+  .bar {
+    width: 8rem;
+  }
+}

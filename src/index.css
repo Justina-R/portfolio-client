@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #d9d9d9;
+  --primary-color: #514c73;
+  --contrast-color: #0f766e;
+  --card-color: #eef2f7;
+  --text-color: #111;
+  --subtext-color: #333;
+  --logo-color: #eef2f7;
+  --hero-color: transparent;
+}
+
+[data-theme="dark"] {
+  --bg: #404040;
+  --primary-color: #514c73;
+  --contrast-color: #0f766e;
+  --card-color: #303030;
+  --text-color: #eef2f7;
+  --subtext-color: #eef2f7;
+  --hero-color: #30303050;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Syncopate", sans-serif;
+}
+
+html {
+  transition: 
+    background-color 0.4s ease,
+    color 0.4s ease;
+}
+
+* {
+  transition: 
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease;
+}

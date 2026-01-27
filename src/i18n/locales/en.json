@@ -1,0 +1,39 @@
+{
+  "menu": "Menu",
+  "close": "Close",
+  "socials": "Socials",
+  "noItems": "No items",
+
+  "home": "Home",
+  "home-title": "Hi! My name is Justina. I'm a Full-stack developer",
+  "home-subtitle": "Thank you so much for taking an interest in my work. Feel free to explore more about my journey and experience in software development.",
+  "lets-start": "Let's get started!",
+
+  "aboutMe": "About Me",
+  "aboutMe-p1": "I've been interested in the world of software development for several years, but it was in 2024 that I began my formal studies at UTN. This training gave me a well-rounded understanding of application development, which has been key to grasping the full process, communicating effectively with other technical roles, and working collaboratively within a team.",
+  "aboutMe-p2": "I also have a strong command of English, backed by my professional experience as an English-Spanish software translator, which allows me to navigate technical documentation and international environments with ease.",
+  "myEducation": "My Education",
+  "UTNEducation": "University Degree in Programming (2024-2025)",
+  "UTNEducation-subtitle": "National Technological University (Argentina)",
+  "mySkills": "My Skills",
+  "skillManagement": "Project Management",
+  "skillEng": "English",
+
+  "myProjects": "My Projects",
+  "projectsIntro": "Here are some of my main projects. Click on any of them to explore more details.",
+  "githubLink": "Link to repository",
+  "pageLink": "Link to page",
+  "videoLink": "Link to video",
+
+  "devTools": "Throughout my learning journey, I've gained experience with various programming languages and development tools that have allowed me to continuously improve the quality of my work.",
+
+  "contact": "Contact Me",
+  "contactText": "Have any questions or need more information? Fill out the form and I'll get back to you as soon as possible.",
+  "formName": "Name",
+  "formMail": "Mail",
+  "formMessage": "Your message",
+  "formButton": "Send",
+
+  "fullStack": "Full-Stack Developer"
+
+}

@@ -1,0 +1,38 @@
+{
+  "menu": "Menú",
+  "close": "Cerrar",
+  "socials": "Redes",
+  "noItems": "No hay elementos",
+
+  "home": "Inicio", 
+  "home-title": "Hola, soy Justina. Desarroladora full-stack",
+  "home-subtitle": "Muchas gracias por interesarte en mi trabajo. Te invito a conocer más sobre mi historia y experiencia en el mundo del desarrollo de software.",
+  "lets-start": "Comencemos",
+
+  "aboutMe": "Sobre mí",
+  "aboutMe-p1": "Hace varios años que me intereso por el mundo del desarrollo de software, pero fue en 2024 cuando inicié mis estudios formales en la UTN. Esta formación me brindó una visión integral del desarrollo de aplicaciones, fundamental para comprender todo el proceso, comunicarme mejor con otros roles técnicos y trabajar de manera colaborativa dentro de un equipo.",
+  "aboutMe-p2": "Además, cuento con un alto dominio del idioma inglés, respaldado por mi experiencia profesional como traductora inglés–español especializada en software, lo que me permite desenvolverme con soltura en documentación técnica y entornos de trabajo internacionales.",
+  "myEducation": "Mi formación",
+  "UTNEducation": "Tecnicatura universitaria en Programación (2024–2025)",
+  "UTNEducation-subtitle": "Universidad Tecnológica Nacional (Argentina)",
+  "mySkills": "Mis Habilidades",
+  "skillManagement": "Gestión de proyectos",
+  "skillEng": "Inglés",
+
+  "myProjects": "Mis Proyectos",
+  "projectsIntro": "Estos son algunos de mis proyectos más importantes. Haz clic en el que te llame más la atención para obtener más información.",
+  "githubLink": "Enlace al repositorio",
+  "pageLink": "Enlace a la página",
+  "videoLink": "Enlace al video",
+
+  "devTools": "A lo largo de mi aprendizaje he aprendido a utilizar diferentes lenguajes de programación y herramientas relacionadas con el desarrollo de software que me permitieron mejorar la calidad de mi trabajo.",
+  
+  "contact": "Contacto",
+  "contactText": "¿Tienes alguna duda o consulta? Completa este formulario y me pondré en contacto lo antes posible.",
+  "formName": "Nombre",
+  "formMail": "Correo",
+  "formMessage": "Mensaje",
+  "formButton": "Enviar",
+
+  "fullStack": "Desarrolladora Full-Stack"
+} 
