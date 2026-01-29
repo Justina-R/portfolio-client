@@ -33,6 +33,7 @@
   "formMail": "Correo",
   "formMessage": "Mensaje",
   "formButton": "Enviar",
+  "loading": "Cargando...",
 
   "fullStack": "Desarrolladora Full-Stack"
 } 

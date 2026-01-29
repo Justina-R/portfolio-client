@@ -20,7 +20,7 @@
   "skillEng": "English",
 
   "myProjects": "My Projects",
-  "projectsIntro": "Here are some of my main projects. Click on any of them to explore more details.",
+  "projectsIntro": "Here you can take a look at some of my main projects. Click on any of them to explore more details.",
   "githubLink": "Link to repository",
   "pageLink": "Link to page",
   "videoLink": "Link to video",
@@ -33,7 +33,7 @@
   "formMail": "Mail",
   "formMessage": "Your message",
   "formButton": "Send",
+  "loading": "Loading...",
 
   "fullStack": "Full-Stack Developer"
-
 }

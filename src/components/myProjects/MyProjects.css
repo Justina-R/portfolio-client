@@ -34,7 +34,7 @@ body {
 }
 
 .projects-description {
-  width: 15%;
+  width: 20%;
   height: 60%;
   background: var(--card-color);
   padding: 1.25rem 1.5rem;

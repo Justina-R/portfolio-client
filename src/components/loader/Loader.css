@@ -1,0 +1,24 @@
+.meta-loader-wrapper {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle, var(--radial-bg-2), var(--radial-bg));
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.meta-balls-div {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.loader-text {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  color: var(--text-color);
+  z-index: 10;
+}

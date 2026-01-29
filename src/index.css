@@ -6,6 +6,8 @@
 
 :root {
   --bg: #d9d9d9;
+  --radial-bg: #9a9999;
+  --radial-bg-2: #ffffffcd;
   --primary-color: #514c73;
   --contrast-color: #0f766e;
   --card-color: #eef2f7;
@@ -17,6 +19,8 @@
 
 [data-theme="dark"] {
   --bg: #404040;
+  --radial-bg: #404040;
+  --radial-bg-2: #828282a1;
   --primary-color: #514c73;
   --contrast-color: #0f766e;
   --card-color: #303030;

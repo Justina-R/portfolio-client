@@ -56,7 +56,8 @@
   font-size: 1.1rem;
   outline: none;
   font-family: "Sulphur Point", sans-serif;
-  background-color: var(--bg);
+  background-color: var(--bg)!important;
+  color: var(--text-color);
 }
 
 .contact-form textarea {
@@ -65,7 +66,7 @@
 }
 
 .error {
-  color: var(--contrast-color);
+  color: var(--text-color);
   font-size: 1rem;
   margin-top: 0.2rem;
   margin-left: 1rem;

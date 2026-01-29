@@ -42,6 +42,7 @@
   overflow-wrap: break-word;
   background-color: var(--hero-color);
   border-radius: 50px;
+  padding: 0.5rem 0;
 }
 
 .hero-content p {
@@ -50,6 +51,7 @@
   margin: 0 10rem;
   background-color: var(--hero-color);
   border-radius: 50px;
+  padding: 0.5rem 1rem;
 }
 
 .hero-content button,

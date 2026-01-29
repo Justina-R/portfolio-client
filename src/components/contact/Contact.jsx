@@ -5,6 +5,9 @@ import { useTranslation } from "react-i18next";
 
 export default function Contact() {
   const { t } = useTranslation();
+  const [loading, setLoading] = useState(false);
+
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const [form, setForm] = useState({
     name: "",
@@ -30,12 +33,35 @@ export default function Contact() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (validate()) {
-      toast.info("Mensaje enviado correctamente 🚀");
+
+    if (!validate()) return;
+
+    try {
+      setLoading(true);
+      const response = await fetch(
+        `http://localhost:5072/api/Mail/contactMe`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        },
+      );
+
+      if (!response.ok) {
+        throw new Error("Error al enviar el mensaje");
+      }
+      
+      toast.success("Mensaje enviado correctamente");
       setForm({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error(error);
+      toast.error("Hubo un problema al enviar el mensaje");
     }
+    setLoading(false);
   };
 
   return (
@@ -80,8 +106,8 @@ export default function Contact() {
             {errors.message && <span className="error">{errors.message}</span>}
           </div>
 
-          <button type="submit" className="send-button">
-            {t("formButton")}
+          <button type="submit" className="send-button" disabled={loading}>
+            {loading ? t("loading") : t("formButton")}
           </button>
         </form>
       </div>
