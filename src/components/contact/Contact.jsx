@@ -7,8 +7,6 @@ export default function Contact() {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(false);
 
-  const apiUrl = import.meta.env.VITE_API_URL;
-
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -41,11 +39,12 @@ export default function Contact() {
     try {
       setLoading(true);
       const response = await fetch(
-        `http://localhost:5072/api/Mail/contactMe`,
+        `https://portfolio-api-jfzg.onrender.com/api/Mail/contactMe`,
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
+            "SECRET-API-KEY": import.meta.env.VITE_API_KEY,
           },
           body: JSON.stringify(form),
         },
@@ -54,7 +53,7 @@ export default function Contact() {
       if (!response.ok) {
         throw new Error("Error al enviar el mensaje");
       }
-      
+
       toast.success("Mensaje enviado correctamente");
       setForm({ name: "", email: "", message: "" });
     } catch (error) {
