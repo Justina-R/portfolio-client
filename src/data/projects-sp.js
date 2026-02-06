@@ -26,7 +26,7 @@ const projectsSp = [
     description: "Aplicación web que consume una API externa para mostrar información actualizada sobre los últimos estrenos del cine. Integra manejo de correos electrónicos mediante SMTP de Gmail para notificaciones y contacto con usuarios. El proyecto prioriza la actualización dinámica de contenidos y una experiencia de usuario fluida.",
     tools: ["HTML & CSS", "JavaScript", "Python"],
     repoLink: "https://github.com/Justina-R/Cinema-Paradiso",
-    pageLink: "https://cinema-paradiso.onrender.com/",
+    pageLink: "https://cinema-paradiso-psi.vercel.app/",
     videoLink: "https://drive.google.com/"
   }
 ];

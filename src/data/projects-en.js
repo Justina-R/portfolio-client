@@ -29,7 +29,7 @@ const projectsEn = [
       "A web application that consumes an external API to display up-to-date information about the latest movie releases. It integrates email handling via Gmail SMTP for notifications and user communication, prioritizing dynamic content updates and a smooth user experience.",
     tools: ["HTML & CSS", "JavaScript", "Python"],
     repoLink: "https://github.com/Justina-R/Cinema-Paradiso",
-    pageLink: "https://cinema-paradiso.onrender.com/",
+    pageLink: "https://cinema-paradiso-psi.vercel.app/",
     videoLink: "https://drive.google.com/"
   }
 ];
