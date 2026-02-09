@@ -6,7 +6,7 @@ const projectsSp = [
     description: "Plataforma web que conecta docentes particulares con estudiantes que buscan clases de apoyo. Incluye autenticación y autorización de usuarios, con un dashboard administrativo para aprobar nuevos docentes y gestionar clases. El sistema está pensado para centralizar la gestión educativa de forma segura y escalable.",
     tools: ["React", "C#", "SQL SMS"],
     repoLink: "https://github.com/Lauzari/Edu-Conecta",
-    pageLink: "https://edu-conecta.vercel.app/",
+    pageLink: "https://edu-conecta-psi.vercel.app/",
     videoLink: "https://drive.google.com/"
   },
   {

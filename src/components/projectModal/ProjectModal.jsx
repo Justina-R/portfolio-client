@@ -58,8 +58,8 @@ export default function ProjectModal({ projectId, onClose }) {
             <FaGithub /> {t("githubLink")}</a>
           <a href={project.pageLink} target="_blank" rel="noopener noreferrer">
             <FaGlobe />{t("pageLink")}</a>
-          <a href={project.videoLink} target="_blank" rel="noopener noreferrer">
-            <FaVideo />{t("videoLink")}</a>
+          {/* <a href={project.videoLink} target="_blank" rel="noopener noreferrer">
+            <FaVideo />{t("videoLink")}</a> */}
         </div>
       </div>
     </div>,

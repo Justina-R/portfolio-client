@@ -7,7 +7,7 @@ const projectsEn = [
       "A web platform that connects private tutors with students looking for academic support. It includes user authentication and authorization, along with an administrative dashboard to approve new tutors and manage classes. The system is designed to centralize educational management in a secure and scalable way.",
     tools: ["React", "C#", "SQL SMS"],
     repoLink: "https://github.com/Lauzari/Edu-Conecta",
-    pageLink: "https://edu-conecta.vercel.app/",
+    pageLink: "https://edu-conecta-psi.vercel.app/",
     videoLink: "https://drive.google.com/"
   },
   {
