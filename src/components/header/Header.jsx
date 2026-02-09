@@ -15,7 +15,7 @@ export default function Header() {
 
   const socialItems = [
     { label: "GitHub", link: "https://github.com/Justina-R" },
-    { label: "LinkedIn", link: "https://linkedin.com/in/tuusuario" },
+    { label: "LinkedIn", link: "https://www.linkedin.com/in/justina-rey-2602/" },
   ];
 
   return (
